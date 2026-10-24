@@ -1,0 +1,73 @@
+{
+  "style_reference": "образец.png",
+  "style_reference_sha256": "16509d4a5d1521a3051ad164e7b7a699d60baee8b329872fa379ac6463b6409f",
+  "method": "Original JPEG decoded once at native resolution. Separate light-only effects, local amber light spill and mild winter color/contrast correction applied exclusively outside conservative people masks. Source RGB pixels inside people masks and full rectangular face checks are copied unchanged. No source resize, crop, face generation, retouching, smoothing, global filter on people or JPEG re-encoding.",
+  "images": [
+    {
+      "source": "IMG_2938.JPG",
+      "result": "results/IMG_2938_magic_reference.png",
+      "source_sha256": "40a012159f9505b0493cefe8b8c06f98196616c5479e40d5119bc3f8b8d0c81c",
+      "result_sha256": "eaab5c31a721ec8889306bc7a8691df0ee9ed12eef6132f313509e4f066ddf9e",
+      "width": 6240,
+      "height": 4160,
+      "format": "PNG",
+      "lossless": true,
+      "protected_pixels": 2140635,
+      "changed_protected_pixels": 0,
+      "maximum_protected_rgb_difference": 0,
+      "face_checks": [
+        {
+          "rectangle_pixels": [
+            2431,
+            1053,
+            423,
+            407
+          ],
+          "maximum_rgb_difference": 0
+        }
+      ]
+    },
+    {
+      "source": "IMG_4525.JPG",
+      "result": "results/IMG_4525_magic_reference.png",
+      "source_sha256": "5fe36a5fef7e0e5c4f7e1b0a2c01d9ccff00b58911099a206108fea18e2d749d",
+      "result_sha256": "5a71bdc7a2e3531b7889bde498f5f2340cc03b2be9b619e8583b7ac334e04e35",
+      "width": 6240,
+      "height": 4160,
+      "format": "PNG",
+      "lossless": true,
+      "protected_pixels": 7467114,
+      "changed_protected_pixels": 0,
+      "maximum_protected_rgb_difference": 0,
+      "face_checks": [
+        {
+          "rectangle_pixels": [
+            2385,
+            546,
+            355,
+            303
+          ],
+          "maximum_rgb_difference": 0
+        },
+        {
+          "rectangle_pixels": [
+            3896,
+            685,
+            388,
+            362
+          ],
+          "maximum_rgb_difference": 0
+        },
+        {
+          "rectangle_pixels": [
+            4413,
+            565,
+            440,
+            378
+          ],
+          "maximum_rgb_difference": 0
+        }
+      ]
+    }
+  ]
+}
